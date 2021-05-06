@@ -1,0 +1,9 @@
+#include <stddef.h> 
+#include <stdlib.h> 
+#include <math.h> 
+
+double compiled_ex(double x, double y, double z, double g)
+{
+double res =  g*x+1.0000000000000000e-03*g*(x*x);
+return(res); 
+}
